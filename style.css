@@ -5,28 +5,38 @@ html {
     background-size: cover;
     }
     
-    body {
-       white-space: nowrap; 
-       font-family: 'Cormorant Garamond', serif;
-    }
+    body{
+        white-space: nowrap; 
+        font-family: 'Cormorant Garamond', serif;
+        }
     
-    h1{
-        
-        color: #fff;
-        text-shadow: 
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-    }
+    h1  {
+        font-size: 50;
+        color: #dcdcdc;        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 1px 1px #cc7722;       	         
+        }
 
-    h2{
-        color: #fff;
-        text-shadow: 
-        -1px -1px 0 #000,
-        1px -1px 0 #000,
-        -1px 1px 0 #000,
-        1px 1px 0 #000;
-    }
+    h2  {
+        font-size: 32;
+        color: #cccccc;             
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-shadow: 1px 1px #cc7722;   
+        }
+
+    a   {
+        color: #dcdcdc;
+        text-shadow: 1px 1px #cc7722;
+        text-align: center;
+        vertical-align: bottom;        
+        }
     
     
